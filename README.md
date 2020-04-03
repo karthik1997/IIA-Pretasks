@@ -4,5 +4,5 @@
 1. K Nearerst Neighbour(python)
 2. K means Clustering(python)
 3. Decision Tree(python)
-4. Principle Component Analysis(python)
+4. Principle Component Analysis(C)
 
