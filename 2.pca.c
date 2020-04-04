@@ -136,6 +136,7 @@ void main() {
 
   double t = e / sum1;
   double y = g / sum1;
+  //correct values are obtaining
   double ne[m][n];
   for (int i = 0; i < m; ++i) {
     for (int j = 0; j < n; ++j) {
@@ -169,3 +170,4 @@ void main() {
   }
 
 }
+//checked till here
