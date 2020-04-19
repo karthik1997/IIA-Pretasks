@@ -6,7 +6,7 @@ def PointPredictor(Sample_Data,p,k=3):
 	for label in 	Sample_Data: 
 		for feature in 	Sample_Data[label]: 
 
-			euclidean_distance = math.sqrt((feature[0]-p[0])**3 +(feature[1]-p[1])**3) 
+			euclidean_distance = math.sqrt((feature[0]-p[0])**2 +(feature[1]-p[1])**2) 
 
 			# Add a tuple of form (distance,group) in the distance list 
 			distance_recorder.append((euclidean_distance,label)) 
